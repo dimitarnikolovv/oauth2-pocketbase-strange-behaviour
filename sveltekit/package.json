@@ -1,0 +1,33 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.88",
+    "@sveltejs/adapter-vercel": "^3.0.3",
+    "@sveltejs/kit": "^1.20.4",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^4.0.1",
+    "object-to-formdata": "^4.5.1",
+    "postcss": "^8.4.24",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^4.0.5",
+    "sveltekit-superforms": "^1.8.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.4.2",
+    "zod": "^3.22.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "dom-to-image": "^2.6.0",
+    "pocketbase": "^0.18.0",
+    "svelte-french-toast": "^1.2.0",
+    "web-push": "^3.6.6"
+  }
+}
